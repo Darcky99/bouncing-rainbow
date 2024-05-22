@@ -1,0 +1,206 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1feffc4a2e5a41a46a5c417c31402c51, type: 3}
+  m_Name: GameConfig
+  m_EditorClassIdentifier: 
+  IsIOSATT: 1
+  ATTPrivacyPolicy: http://change.com
+  MAXControlsLocalizations: 0
+  AdsMediation:
+    dummyText: 
+    m_UseDummyAdsOnDevice: 0
+  ResolutionsData:
+    m_ResolutionDatas:
+    - Name: "Apple iPhone 5, 5S, 5C, SE\t"
+      Width: 640
+      Height: 1136
+      DPI: 326
+    - Name: Apple iPhone 6, 6S, 7
+      Width: 750
+      Height: 1334
+      DPI: 326
+    - Name: Apple iPhone 6 Plus, 6S Plus, 7 Plus
+      Width: 1080
+      Height: 1920
+      DPI: 401
+    - Name: Apple iPhone X, XS
+      Width: 1125
+      Height: 2436
+      DPI: 463
+    - Name: Apple iPhone XR
+      Width: 828
+      Height: 1792
+      DPI: 324
+    - Name: Apple iPhone XS Max
+      Width: 1242
+      Height: 2688
+      DPI: 456
+    - Name: "Apple iPad 1, 2\t"
+      Width: 1024
+      Height: 768
+      DPI: 132
+    - Name: Apple iPad 3, 4
+      Width: 2048
+      Height: 1536
+      DPI: 264
+    - Name: Apple iPad Air 1, 2
+      Width: 2048
+      Height: 1536
+      DPI: 264
+    - Name: Apple iPad mini
+      Width: 1024
+      Height: 768
+      DPI: 162
+    - Name: Apple iPad mini Retina
+      Width: 2048
+      Height: 1536
+      DPI: 324
+    - Name: Apple iPad Pro (1) 9.7
+      Width: 2224
+      Height: 1668
+      DPI: 265
+    - Name: Apple iPad Pro (2) 10.5
+      Width: 2224
+      Height: 1668
+      DPI: 265
+    - Name: Apple iPad Pro (3) 11
+      Width: 2388
+      Height: 1668
+      DPI: 265
+    - Name: Apple iPad Pro (1-3) 12.9
+      Width: 2732
+      Height: 2048
+      DPI: 265
+    - Name: Samsung Galaxy S8
+      Width: 2960
+      Height: 1440
+      DPI: 568
+    - Name: iPhone 6 Plus/6S Without downsampling
+      Width: 1242
+      Height: 2208
+      DPI: 461
+    IsDebugEnabled: 1
+  Debug:
+    m_DebugMode: 1
+    m_GodMode: 0
+    m_EmulateLowFPS: 0
+    LowFPSValues: {x: 5, y: 20}
+    IphoneXDiagramPrefab: {fileID: 8546051888286541568, guid: 5552462bf52f96542a6b991b0953af00,
+      type: 3}
+    AdsDebugButtonsPrefab: {fileID: 3448228447737584263, guid: 7520e84b37aa74851be9c3a37c2dc9aa,
+      type: 3}
+    m_ShowFPSCounter: 0
+    FPSCounterPrefab: {fileID: 2204683343115344424, guid: 4f492a25148fb7945958d6e6d7d4b135,
+      type: 3}
+    m_ShowGameLoopButtons: 0
+    GameLoopButtonsPrefab: {fileID: 2204683343115344424, guid: 422973f2550921a4faa73c69c2f75d41,
+      type: 3}
+    m_ShowMediationTester: 0
+    MediationTesterPrefab: {fileID: 6387904884932253925, guid: ebfc30c747e338d45a8b832624b6a06b,
+      type: 3}
+  Input:
+    DragSensitivity: {x: 1, y: 1}
+    IsUseJoystick: 0
+    Joystick:
+      IsShowVisuals: 1
+      IsStatic: 1
+      IsResetDirection: 1
+      Radius: 0.4
+      HandleRadiusMultiplier: 0.42
+    CalculateMultiTouch: 0
+  GamePlay:
+    m_AddLinePrice: 50
+    m_AddSquadPrice: 800
+    m_IncomeLevelPrice: 200
+    m_SquadNextLevelPrice: 90000
+    m_AmountToMerge: 2
+    m_CoinsPerLine: 5
+    m_LineTimeOffset: 0.2
+    m_TapMultiplier: 1.2
+    m_SpeedLevelFactor: 1.45
+    m_CirclePrice: 5
+    m_GatePrice: 10
+    m_CirclesNextLevelPrice: 8000
+    m_CircleEarning: 1
+    m_XCoordinateRange:
+      x: 0
+      y: 10
+    m_YCoordinateRange:
+      x: 0
+      y: 10
+  Levels:
+    Levels:
+    - Level 01
+    - Level 02
+  HUD:
+    IsUseCollectables: 1
+    EarnObject:
+      EarnObjectUIAnimData:
+        keyData: 
+        valueData: []
+      IsPlayHapticsOnReceive: 1
+      ReceivedHaptics: 0
+      EarningCompleteHaptics: 5
+      HapticsCooldown: 0.3
+    CollectableData:
+      keyData: 00000000
+      valueData:
+      - InitialValue: 0
+        CollectableSprite: {fileID: 21300000, guid: 1704b1a5fdd19a54e99131e995c6b7a4,
+          type: 3}
+        ParticlesMaterial: {fileID: 2100000, guid: 0366c351838893e41930c2ab4cfa21a4,
+          type: 2}
+        ParticlesSize: {x: 1, y: 1, z: 1}
+        Type: 0
+    AnimationData: {fileID: 11400000, guid: 11a1a631f8a1cf745a10d79a1dfccf23, type: 2}
+  Menus:
+    UseScreenSettings: 1
+    OpenLevelFailedScreenAfterReviveScreen: 0
+    TimeToShowNoThanks: 0.7
+    ShowNoThanksDuration: 1
+    ShowNoThanksEase: 7
+    RV_NeedleRotationDuration: 1.3
+    RV_NeedleRotationEase: 2
+    RV_ButtonBlockDuration: 3
+    ExtendedButtonCanDoScaleAnim: 1
+    ExtendedButtonCanDoHaptics: 1
+    ExtendedButtonScaleAnimType: 0
+    ExtendedButtonPunchScale: 0.2
+    ExtendedButtonPunchScaleDuration: 0.25
+    ExtendedButtonPunchScaleVibrato: 7
+    ExtendedButtonPunchScaleElasticity: 0.66
+    ExtendedButtonPunchScaleEaseIn: 27
+    ExtendedButtonPunchScaleEaseOut: 9
+    TimeToAllowRevive: 4
+    GDPR:
+      IsGDPRRequired: 0
+      PrivacyPolicyURL: 
+      TermsOfServiceURL: 
+      Text:
+        TitleText: We've updated our Terms
+        TermsOfServiceLinkText: TERMS OF SERVICE
+        PrivacyPolicyLinkText: PRIVACY POLICY
+        AgreeConditionText: By tapping "Accept" you agree to them
+        AcceptButtonText: ACCEPT
+    ScreenFadeInDuration: 0.25
+    ScreenFadeOutDuration: 0.1
+  Camera:
+    ZoomType: 0
+    ZoomDolly:
+      Sensitivity: 1000
+      Limits: {x: -5, y: 5}
+    ZoomOrtho:
+      Sensitivity: 100
+      Limits: {x: 2, y: 5}
+    ZoomPerspective:
+      Sensitivity: 2000
+      Limits: {x: 25, y: 90}

@@ -1,0 +1,18 @@
+<linker>
+    <assembly fullname="System.Globalization.Calendars" preserve="all"/>
+    <assembly fullname="mscorlib">
+        <type fullname="System.Globalization.ThaiBuddhistCalendar" preserve="all"/>
+        <type fullname="System.Globalization.EastAsianLunisolarCalendar" preserve="all"/>
+        <type fullname="System.Globalization.ChineseLunisolarCalendar" preserve="all"/>
+        <type fullname="System.Globalization.HebrewCalendar" preserve="all"/>
+        <type fullname="System.Globalization.HijriCalendar" preserve="all"/>
+        <type fullname="System.Globalization.JapaneseCalendar" preserve="all"/>
+        <type fullname="System.Globalization.JapaneseLunisolarCalendar" preserve="all"/>
+        <type fullname="System.Globalization.KoreanCalendar" preserve="all"/>
+        <type fullname="System.Globalization.KoreanLunisolarCalendar" preserve="all"/>
+        <type fullname="System.Globalization.PersianCalendar" preserve="all"/>
+        <type fullname="System.Globalization.TaiwanCalendar" preserve="all"/>
+        <type fullname="System.Globalization.TaiwanLunisolarCalendar" preserve="all"/>
+        <type fullname="System.Globalization.UmAlQuraCalendar" preserve="all"/>
+    </assembly>
+</linker>

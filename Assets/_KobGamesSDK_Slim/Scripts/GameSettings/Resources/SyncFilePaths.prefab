@@ -1,0 +1,65 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &42993701059819859
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1416181109115502694}
+  - component: {fileID: 8060123116011439756}
+  m_Layer: 0
+  m_Name: SyncFilePaths
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1416181109115502694
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 42993701059819859}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &8060123116011439756
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 42993701059819859}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0eaefda0ec6df4302bea6c7a2fb73ed3, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  FileObject: {fileID: 102900000, guid: 153f0959313f39e4ea568f223735e498, type: 3}
+  Paths:
+  - Path: Assets/_KobGamesSDK_Slim/Editor/ProjectCustomBuildProcessor.cs
+    IsEnabled: 1
+  - Path: Assets/_KobGamesSDK_Slim/Scripts/GameSettings
+    IsEnabled: 1
+  - Path: Assets/_Project_Specific_Folder/Scriptable_Objects/Collectables
+    IsEnabled: 1
+  - Path: Assets/_KobGamesSDK_Slim
+    IsEnabled: 1
+  - Path: Assets/_KobGamesSDK_Slim_Ads
+    IsEnabled: 0
+  - Path: Assets/Plugins
+    IsEnabled: 0
+  - Path: Assets/MaxSdk
+    IsEnabled: 0
+  - Path: Assets/_Project_Specific_Folder/Scripts/Managers/Menu/v1/Screens/Screen_GDPR.cs
+    IsEnabled: 0
+  - Path: Assets/_KobGamesSDK_Slim/_3rd_Party/ExternalDependencyManager
+    IsEnabled: 1

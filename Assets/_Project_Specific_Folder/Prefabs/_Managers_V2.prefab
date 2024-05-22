@@ -1,0 +1,174 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &3228043166770690714
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 5776808536296381055}
+  - component: {fileID: 855859763995156135}
+  m_Layer: 0
+  m_Name: AppMetrica
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &5776808536296381055
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3228043166770690714}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 3618200507980073989}
+  m_RootOrder: 16
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &855859763995156135
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3228043166770690714}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fc7b82b1248c84e468b83ba7fb3f14a9, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  ApiKey: 43de9c82-4463-4e91-83e2-9eb879b8b5a7
+  ExceptionsReporting: 1
+  SessionTimeoutSec: 300
+  LocationTracking: 0
+  Logs: 1
+  HandleFirstActivationAsUpdate: 0
+  StatisticsSending: 1
+--- !u!1001 &1195324042112750205
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 489934418882181893, guid: a3adad9ca2c57fb4dbade4e1cfe3575c,
+        type: 3}
+      propertyPath: FirebaseRemoteConfig.FlushDeviceConfig
+      value: 0.1
+      objectReference: {fileID: 0}
+    - target: {fileID: 489934418882181893, guid: a3adad9ca2c57fb4dbade4e1cfe3575c,
+        type: 3}
+      propertyPath: FirebaseRemoteConfig.IsAdsEnabled.m_DefaultValue
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 489934418882181893, guid: a3adad9ca2c57fb4dbade4e1cfe3575c,
+        type: 3}
+      propertyPath: FirebaseRemoteConfig.ConfigVersion.m_DefaultValue
+      value: 0.1
+      objectReference: {fileID: 0}
+    - target: {fileID: 489934418882181893, guid: a3adad9ca2c57fb4dbade4e1cfe3575c,
+        type: 3}
+      propertyPath: FirebaseRemoteConfig.IsBannerEnabled.m_DefaultValue
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 489934418882181893, guid: a3adad9ca2c57fb4dbade4e1cfe3575c,
+        type: 3}
+      propertyPath: FirebaseRemoteConfig.IsInterstitialEnabled.m_DefaultValue
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 489934418882181893, guid: a3adad9ca2c57fb4dbade4e1cfe3575c,
+        type: 3}
+      propertyPath: FirebaseRemoteConfig.IsRewardVideosEnabled.m_DefaultValue
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2495217202187673208, guid: a3adad9ca2c57fb4dbade4e1cfe3575c,
+        type: 3}
+      propertyPath: m_RootOrder
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2495217202187673208, guid: a3adad9ca2c57fb4dbade4e1cfe3575c,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2495217202187673208, guid: a3adad9ca2c57fb4dbade4e1cfe3575c,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2495217202187673208, guid: a3adad9ca2c57fb4dbade4e1cfe3575c,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2495217202187673208, guid: a3adad9ca2c57fb4dbade4e1cfe3575c,
+        type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2495217202187673208, guid: a3adad9ca2c57fb4dbade4e1cfe3575c,
+        type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2495217202187673208, guid: a3adad9ca2c57fb4dbade4e1cfe3575c,
+        type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2495217202187673208, guid: a3adad9ca2c57fb4dbade4e1cfe3575c,
+        type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2495217202187673208, guid: a3adad9ca2c57fb4dbade4e1cfe3575c,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2495217202187673208, guid: a3adad9ca2c57fb4dbade4e1cfe3575c,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2495217202187673208, guid: a3adad9ca2c57fb4dbade4e1cfe3575c,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4363505820622782778, guid: a3adad9ca2c57fb4dbade4e1cfe3575c,
+        type: 3}
+      propertyPath: m_Name
+      value: _Managers_V2
+      objectReference: {fileID: 0}
+    - target: {fileID: 6259495305516594450, guid: a3adad9ca2c57fb4dbade4e1cfe3575c,
+        type: 3}
+      propertyPath: DummyReferences.Array.data[1]
+      value: 
+      objectReference: {fileID: 11400000, guid: 1601a05d27ceb41108c362b618f30315,
+        type: 2}
+    - target: {fileID: 6259495305516594450, guid: a3adad9ca2c57fb4dbade4e1cfe3575c,
+        type: 3}
+      propertyPath: DummyReferences.Array.data[2]
+      value: 
+      objectReference: {fileID: 11400000, guid: 341f128fcb9ee47f1bc13bc040d50dd0,
+        type: 2}
+    - target: {fileID: 8850933745238331889, guid: a3adad9ca2c57fb4dbade4e1cfe3575c,
+        type: 3}
+      propertyPath: AdsAlwaysAvailableInEditor
+      value: 1
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: a3adad9ca2c57fb4dbade4e1cfe3575c, type: 3}
+--- !u!4 &3618200507980073989 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 2495217202187673208, guid: a3adad9ca2c57fb4dbade4e1cfe3575c,
+    type: 3}
+  m_PrefabInstance: {fileID: 1195324042112750205}
+  m_PrefabAsset: {fileID: 0}

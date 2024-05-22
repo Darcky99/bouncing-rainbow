@@ -1,0 +1,104 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!687078895 &4343727234628468602
+SpriteAtlas:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: SDK_UI
+  m_EditorData:
+    serializedVersion: 2
+    textureSettings:
+      serializedVersion: 2
+      anisoLevel: 1
+      compressionQuality: 50
+      maxTextureSize: 2048
+      textureCompression: 0
+      filterMode: 1
+      generateMipMaps: 0
+      readable: 0
+      crunchedCompression: 0
+      sRGB: 1
+    platformSettings:
+    - serializedVersion: 3
+      m_BuildTarget: DefaultTexturePlatform
+      m_MaxTextureSize: 2048
+      m_ResizeAlgorithm: 0
+      m_TextureFormat: -1
+      m_TextureCompression: 1
+      m_CompressionQuality: 100
+      m_CrunchedCompression: 1
+      m_AllowsAlphaSplitting: 0
+      m_Overridden: 0
+      m_AndroidETC2FallbackOverride: 0
+      m_ForceMaximumCompressionQuality_BC6H_BC7: 1
+    - serializedVersion: 3
+      m_BuildTarget: iOS
+      m_MaxTextureSize: 2048
+      m_ResizeAlgorithm: 0
+      m_TextureFormat: 48
+      m_TextureCompression: 1
+      m_CompressionQuality: 50
+      m_CrunchedCompression: 0
+      m_AllowsAlphaSplitting: 0
+      m_Overridden: 1
+      m_AndroidETC2FallbackOverride: 0
+      m_ForceMaximumCompressionQuality_BC6H_BC7: 0
+    - serializedVersion: 3
+      m_BuildTarget: iPhone
+      m_MaxTextureSize: 2048
+      m_ResizeAlgorithm: 0
+      m_TextureFormat: 48
+      m_TextureCompression: 1
+      m_CompressionQuality: 50
+      m_CrunchedCompression: 0
+      m_AllowsAlphaSplitting: 0
+      m_Overridden: 1
+      m_AndroidETC2FallbackOverride: 0
+      m_ForceMaximumCompressionQuality_BC6H_BC7: 0
+    packingSettings:
+      serializedVersion: 2
+      padding: 4
+      blockOffset: 1
+      allowAlphaSplitting: 0
+      enableRotation: 1
+      enableTightPacking: 0
+      enableAlphaDilation: 0
+    secondaryTextureSettings: {}
+    variantMultiplier: 1
+    packables:
+    - {fileID: 102900000, guid: 5b69c028bbace8d498d3db804c752a55, type: 3}
+    bindAsDefault: 1
+    isAtlasV2: 0
+    cachedData: {fileID: 0}
+  m_MasterAtlas: {fileID: 0}
+  m_PackedSprites:
+  - {fileID: 21300000, guid: 77e8e720a5b8e4249a99f610160273a0, type: 3}
+  - {fileID: 21300000, guid: 746a3f6106e664982a6b995363f70e5f, type: 3}
+  - {fileID: 21300000, guid: 63d84c035e13f4b239141d402d578ec0, type: 3}
+  - {fileID: 21300000, guid: 16a3f88691eb54adc8f8e18c62fc9554, type: 3}
+  - {fileID: 21300000, guid: 9f57dd87b80a34f5db0ea12e3e3b1e80, type: 3}
+  - {fileID: 21300000, guid: a553782cb22b1429ba7052250b73aec1, type: 3}
+  - {fileID: 21300000, guid: 427edcbc19ffd440c8a9816a861b4fb3, type: 3}
+  - {fileID: 21300000, guid: 8c291cec6e51142068d7b3022c119f0d, type: 3}
+  - {fileID: 21300000, guid: d2776c0d225764d67866a37d3b572cf0, type: 3}
+  - {fileID: 21300000, guid: 77b3fdceea341427d869c617ad6f943b, type: 3}
+  - {fileID: 21300000, guid: 43df10eec3bea5842a82d4fe300a016b, type: 3}
+  - {fileID: 21300000, guid: 31f5accf94cf7924fa445339386895ed, type: 3}
+  m_PackedSpriteNamesToIndex:
+  - Schema3_Panel
+  - Schema3_YesButton_Bg
+  - Star_Off_Blue
+  - Star_Off_Orange
+  - Schema3_Title_Bg
+  - Schema2_YesButton_Bg
+  - Rays
+  - Star_On
+  - Schema2_Title_Bg
+  - Schema2_Panel
+  - Schema1_Panel
+  - Schema1_Star
+  m_RenderDataMap: {}
+  m_Tag: SDK_UI
+  m_IsVariant: 0

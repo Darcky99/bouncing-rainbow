@@ -1,0 +1,21 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: dfa348d3245524967a72da08fcecb37a, type: 3}
+  m_Name: RateUsSchema1
+  m_EditorClassIdentifier: 
+  PanelBg: {fileID: 21300000, guid: 77b3fdceea341427d869c617ad6f943b, type: 3}
+  TitleBg: {fileID: 21300000, guid: d2776c0d225764d67866a37d3b572cf0, type: 3}
+  TitleTextColor: {r: 0.6666667, g: 0.97647065, b: 0.98823535, a: 1}
+  StarOn: {fileID: 21300000, guid: 8c291cec6e51142068d7b3022c119f0d, type: 3}
+  StarOff: {fileID: 21300000, guid: 63d84c035e13f4b239141d402d578ec0, type: 3}
+  YesButtonBg: {fileID: 21300000, guid: a553782cb22b1429ba7052250b73aec1, type: 3}
+  YesButtonTextColor: {r: 0.19607845, g: 0.27450982, b: 0.43137258, a: 1}

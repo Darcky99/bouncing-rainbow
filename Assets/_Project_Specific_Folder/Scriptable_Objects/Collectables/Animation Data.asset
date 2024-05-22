@@ -1,0 +1,396 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 189b25a9d7a2b324b9151a8748a1ebcc, type: 3}
+  m_Name: Animation Data
+  m_EditorClassIdentifier: 
+  SendAnim:
+    keyData: 000000000100000002000000
+    valueData:
+    - AnimMode: 0
+      LinearAnimMode:
+        IsSpecificAmount: 1
+        SendAmount: 7
+        ItemCost: 0
+        MaxAmount: 0
+        DelayBetween: 0.1
+        DelayCurve:
+          serializedVersion: 2
+          m_Curve:
+          - serializedVersion: 3
+            time: 0
+            value: 0
+            inSlope: 2
+            outSlope: 2
+            tangentMode: 0
+            weightedMode: 0
+            inWeight: 0
+            outWeight: 0
+          - serializedVersion: 3
+            time: 1
+            value: 1
+            inSlope: 0
+            outSlope: 0
+            tangentMode: 0
+            weightedMode: 0
+            inWeight: 0
+            outWeight: 0
+          m_PreInfinity: 2
+          m_PostInfinity: 2
+          m_RotationOrder: 4
+        InitialSizeDeltaAmount: 150
+        InitialSizeDeltaDuration: 0.2
+        InitialSizeDeltaEase: 3
+        InitialMoveOffset: {x: 0, y: 200, z: 0}
+        InitialMoveEase: 3
+        FinalSizeDeltaAmount: 138.86
+        FinalSizeDeltaDuration: 0
+        FinalSizeDeltaEase: 3
+        FinalAnimData:
+          Delay: 0
+          Duration: 0.5
+          Ease: 2
+          LoopCount: 0
+      BurstAnimMode:
+        IsSpecificAmount: 1
+        SendAmount: 0
+        ItemCost: 0
+        MaxAmount: 0
+        DelayBetween: 0
+        DelayCurve:
+          serializedVersion: 2
+          m_Curve: []
+          m_PreInfinity: 2
+          m_PostInfinity: 2
+          m_RotationOrder: 4
+        BurstRadius: 0
+        BurstOffset: {x: 0, y: 0}
+        RadiusThickness: 0
+        IsLimitAngle: 0
+        AngleLimitMin: 0
+        AngleLimitMax: 0
+        BurstDuration: 0
+        BurstSizeDeltaAmount: 0
+        BurstMoveEase: 0
+        BurstSizeDeltaEase: 0
+        WaitSizeDeltaAmount: 0
+        WaitSizeDeltaEase: 0
+        WaitSizeDeltaDuration: 0
+        FinalAnimData:
+          Delay: 0
+          Duration: 0
+          Ease: 0
+          LoopCount: 0
+    - AnimMode: 1
+      LinearAnimMode:
+        IsSpecificAmount: 1
+        SendAmount: 0
+        ItemCost: 0
+        MaxAmount: 0
+        DelayBetween: 0
+        DelayCurve:
+          serializedVersion: 2
+          m_Curve: []
+          m_PreInfinity: 2
+          m_PostInfinity: 2
+          m_RotationOrder: 4
+        InitialSizeDeltaAmount: 0
+        InitialSizeDeltaDuration: 0
+        InitialSizeDeltaEase: 0
+        InitialMoveOffset: {x: 0, y: 0, z: 0}
+        InitialMoveEase: 0
+        FinalSizeDeltaAmount: 0
+        FinalSizeDeltaDuration: 0
+        FinalSizeDeltaEase: 0
+        FinalAnimData:
+          Delay: 0
+          Duration: 0
+          Ease: 0
+          LoopCount: 0
+      BurstAnimMode:
+        IsSpecificAmount: 1
+        SendAmount: 15
+        ItemCost: 0
+        MaxAmount: 0
+        DelayBetween: 0.025
+        DelayCurve:
+          serializedVersion: 2
+          m_Curve:
+          - serializedVersion: 3
+            time: 0
+            value: 0.58807373
+            inSlope: 2
+            outSlope: 2
+            tangentMode: 0
+            weightedMode: 0
+            inWeight: 0
+            outWeight: 0
+          - serializedVersion: 3
+            time: 0.99884033
+            value: -0.09474182
+            inSlope: 0
+            outSlope: 0
+            tangentMode: 0
+            weightedMode: 0
+            inWeight: 0
+            outWeight: 0
+          m_PreInfinity: 2
+          m_PostInfinity: 2
+          m_RotationOrder: 4
+        BurstRadius: 270
+        BurstOffset: {x: 0, y: 100}
+        RadiusThickness: 0.6
+        IsLimitAngle: 0
+        AngleLimitMin: 0
+        AngleLimitMax: 0
+        BurstDuration: 0.25
+        BurstSizeDeltaAmount: 135
+        BurstMoveEase: 6
+        BurstSizeDeltaEase: 27
+        WaitSizeDeltaAmount: 145
+        WaitSizeDeltaEase: 2
+        WaitSizeDeltaDuration: 0.2
+        FinalAnimData:
+          Delay: 0
+          Duration: 0.5
+          Ease: 2
+          LoopCount: 0
+    - AnimMode: 1
+      LinearAnimMode:
+        IsSpecificAmount: 1
+        SendAmount: 10
+        ItemCost: 0
+        MaxAmount: 0
+        DelayBetween: 0.025
+        DelayCurve:
+          serializedVersion: 2
+          m_Curve:
+          - serializedVersion: 3
+            time: 0
+            value: 0.58807373
+            inSlope: 2
+            outSlope: 2
+            tangentMode: 0
+            weightedMode: 0
+            inWeight: 0
+            outWeight: 0
+          - serializedVersion: 3
+            time: 0.99884033
+            value: -0.09474182
+            inSlope: 0
+            outSlope: 0
+            tangentMode: 0
+            weightedMode: 0
+            inWeight: 0
+            outWeight: 0
+          m_PreInfinity: 2
+          m_PostInfinity: 2
+          m_RotationOrder: 4
+        InitialSizeDeltaAmount: 0
+        InitialSizeDeltaDuration: 0
+        InitialSizeDeltaEase: 0
+        InitialMoveOffset: {x: 0, y: 0, z: 0}
+        InitialMoveEase: 0
+        FinalSizeDeltaAmount: 0
+        FinalSizeDeltaDuration: 0
+        FinalSizeDeltaEase: 0
+        FinalAnimData:
+          Delay: 0
+          Duration: 0
+          Ease: 0
+          LoopCount: 0
+      BurstAnimMode:
+        IsSpecificAmount: 1
+        SendAmount: 10
+        ItemCost: 1
+        MaxAmount: 10
+        DelayBetween: 0.025
+        DelayCurve:
+          serializedVersion: 2
+          m_Curve:
+          - serializedVersion: 3
+            time: 0
+            value: 0.58807373
+            inSlope: 2
+            outSlope: 2
+            tangentMode: 0
+            weightedMode: 0
+            inWeight: 0
+            outWeight: 0
+          - serializedVersion: 3
+            time: 0.99884033
+            value: -0.09474182
+            inSlope: 0
+            outSlope: 0
+            tangentMode: 0
+            weightedMode: 0
+            inWeight: 0
+            outWeight: 0
+          m_PreInfinity: 2
+          m_PostInfinity: 2
+          m_RotationOrder: 4
+        BurstRadius: 310
+        BurstOffset: {x: 0, y: 80}
+        RadiusThickness: 0.6
+        IsLimitAngle: 1
+        AngleLimitMin: 15
+        AngleLimitMax: 165
+        BurstDuration: 0.3
+        BurstSizeDeltaAmount: 135
+        BurstMoveEase: 6
+        BurstSizeDeltaEase: 27
+        WaitSizeDeltaAmount: 145
+        WaitSizeDeltaEase: 2
+        WaitSizeDeltaDuration: 0.15
+        FinalAnimData:
+          Delay: 0
+          Duration: 0.5
+          Ease: 2
+          LoopCount: 0
+  ReceiveAnim:
+    keyData: 00000000
+    valueData:
+    - AnimMode: 0
+      ShowMode: 3
+      IsPunchIconScale: 0
+      IncreaseAnimMode:
+        ItemCost: 2
+        MaxAmount: 15
+        DelayBetween: 0.01
+        DelayCurve:
+          serializedVersion: 2
+          m_Curve:
+          - serializedVersion: 3
+            time: 0.0009841919
+            value: 1.0043335
+            inSlope: 0.021166122
+            outSlope: 0.021166122
+            tangentMode: 0
+            weightedMode: 0
+            inWeight: 0
+            outWeight: 0.060975
+          - serializedVersion: 3
+            time: 0.9970703
+            value: 0.0018501282
+            inSlope: -1.6214924
+            outSlope: -1.6214924
+            tangentMode: 0
+            weightedMode: 0
+            inWeight: 0.026702426
+            outWeight: 0
+          m_PreInfinity: 2
+          m_PostInfinity: 2
+          m_RotationOrder: 4
+        BurstRadius: 150
+        BurstOffset: {x: 0, y: 0}
+        RadiusThickness: 0.599
+        IsLimitAngle: 0
+        AngleLimitMin: 0
+        AngleLimitMax: 0
+        MoveDuration: 0.4
+        MoveEase: 3
+        IsRotate: 1
+        RotateOffsetMax: 60
+        RotateEase: 3
+        IsScale: 1
+        FinalScale: 0.447
+        ScaleEase: 3
+        IsFade: 1
+        FinalFadeValue: 0
+        FadeEase: 3
+      DecreaseAnimMode:
+        ItemCost: 5
+        MaxAmount: 7
+        DelayBetween: 0.01
+        DelayCurve:
+          serializedVersion: 2
+          m_Curve:
+          - serializedVersion: 3
+            time: -0.0068893433
+            value: 0.99816895
+            inSlope: 0.09561847
+            outSlope: 0.09561847
+            tangentMode: 0
+            weightedMode: 0
+            inWeight: 0
+            outWeight: 0.08103881
+          - serializedVersion: 3
+            time: 1.0009766
+            value: -0.0045433044
+            inSlope: -2.1416557
+            outSlope: -2.1416557
+            tangentMode: 0
+            weightedMode: 0
+            inWeight: 0.032065533
+            outWeight: 0
+          m_PreInfinity: 2
+          m_PostInfinity: 2
+          m_RotationOrder: 4
+        BurstRadius: 150
+        BurstOffset: {x: 0, y: 0}
+        RadiusThickness: 0.568
+        IsLimitAngle: 0
+        AngleLimitMin: 0
+        AngleLimitMax: 0
+        MoveDuration: 0.4
+        MoveEase: 3
+        IsRotate: 1
+        RotateOffsetMax: 60
+        RotateEase: 3
+        IsScale: 1
+        FinalScale: 0.824
+        ScaleEase: 3
+        IsFade: 1
+        FinalFadeValue: 0
+        FadeEase: 3
+  EarnMessageAnim:
+    keyData: 00000000
+    valueData:
+    - AnimMode: 0
+      SimpleTextAnimMode:
+        IsShowPanel: 0
+        IsShowText: 1
+        PanelColor: {r: 0, g: 0, b: 0, a: 0.69803923}
+        StartScale: 0.9
+        StartFade: 0.6
+        StartOffset: 0
+        AppearDuration: 0.2
+        AppearScale: 1
+        AppearFade: 1
+        AppearOffset: 0
+        AppearEase: 1
+        MoveDuration: 0.2
+        MoveScale: 1
+        MoveFade: 0.6
+        MoveOffset: 0
+        MoveEase: 1
+        DisappearDuration: 0.1
+        DisappearScale: 1
+        DisappearFade: 0
+        DisappearOffset: 0.05
+        DisappearEase: 1
+      SizeMultiplier: 0.35
+      IsSpawnParticles: 0
+      Particles:
+        ItemCost: 10
+        MaxAmount: 10
+        ParticlesLifetime: {x: 0.7, y: 0.8}
+        ParticlesSize: {x: 0.4, y: 0.6}
+        Speed: {x: 3, y: 6}
+        SpawnConeAngle: 44.29
+        SpawnConeRadius: 0.25
+        SpawnParticlesOffset: {x: 0, y: -0.2, z: 0}
+        SpawnDelay: 0
+  Haptics:
+    IsPlayHapticsOnReceive: 1
+    ReceivedHaptics: 0
+    CompleteHaptics: 5
+    HapticsCooldown: 0.05

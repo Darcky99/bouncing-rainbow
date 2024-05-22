@@ -1,0 +1,7 @@
+{
+	"RunSilently": "False",
+	"ProjectName": "[Game Name]",
+	"BundleIdentifier": "com.kobgames.[bundleid]",
+	"AppleId": "[AppStore Id]",
+	"FacebookId": "[Facebook App Id]"
+}

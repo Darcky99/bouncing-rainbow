@@ -1,0 +1,157 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c4facb2f46c8e704eaa53d9317dc1d85, type: 3}
+  m_Name: GameSettings
+  m_EditorClassIdentifier: 
+  General:
+    BuildOptionAndroid: 0
+    IsAppBundle: 0
+    AddressableAndroid: 0
+    BuildOptionIOS: 13
+    LinkerAll: 1
+    RemoveMetal: 0
+    AddressableIOS: 0
+    FastlaneGameName: KobGamesSDK Slim
+    PolicyURL: TBD
+    ScreenshotsPath: TBD
+    BuildSuccessCmd: -1
+    IsInit: 1
+    IsAdsEnabled: 1
+    Icon: {fileID: 21300000, guid: a68e7c44f0cfd044a92d5e8daf252e30, type: 3}
+    SplashImage: {fileID: 21300000, guid: e264b111d938b484b850231ba9983ea3, type: 3}
+    UpdateSplash: 1
+    IOSTeamIDTest: 0
+    AutoSign: 1
+    SignIOSTeamID: XCVXFM7SV3
+    SeparateBundles: 0
+    BundleIdentifier: com.games.bouncingrainbow
+    BundleIdentifierAndroid: 
+    GameName: Bouncing Rainbow
+    BuildVersion: 0.1
+    BuildNumber: 100
+    AppsFlyerId: r9vNC83N8nYpCzYGigyjUh
+    AdjustId: 
+    AppMetricaId: 43de9c82-4463-4e91-83e2-9eb879b8b5a7
+    FacebookAppId: 3581970102030902
+    FacebookAppIdNotes: 
+    GooglePlayId: com.games.bouncingrainbow
+    AppStoreId: 00
+    EnforceQualitySettings: 1
+    KeyStoreName: Azur
+    KeyStorePass: Azur1!
+    KeyaliasName: azur
+    KeyaliasPass: Azur1!
+    IsBuildIOS: 0
+    IsBuildAndroid: 0
+    IsFacebookAppIdSave: 1
+    UpdateFacebookManifest: 0
+    SetSpecificCulture: 1
+    CultureName: en-US
+  Screenshots:
+    ShowLogOnCreation: 1
+    OpenOnFinish: 1
+    IsScreenShotMode: 0
+    Camera: {fileID: 0}
+    ScreenWidth: 1080
+    ScreenHeight: 1920
+    ScreenSizeMultiplier: 1
+    SeperateToResolutionFolders: 1
+  AdsMediation:
+    MediationNetworks: 2
+    PPNetworks: 0
+    IronSourceAppleID: 93a3c8b5
+    IronSourceAndroidID: 93a38f2d
+    MAXSDKKey: 6AQkyPv9b4u7yTtMH9PT40gXg00uJOTsmBOf7hDxa_-FnNZvt_qTLnJAiKeb5-2_T8GsI_dGQKKKrtwZTlCzAR
+    AdMobAppIdAndroid: ca-app-pub-7663884898922975~5849288513
+    AdMobAppIdIos: ca-app-pub-5108357189760220~1343607033
+    MAXBannerAdUnitIdIOS: e515be2df14d7c71
+    MAXInterstitialAdUnitIdIOS: 92488a42ea9b76dc
+    MAXRewardVideoAdUnitIdIOS: bb1fbd17d7f18bb8
+    MAXBannerAdUnitIdAndroid: a66b4d5bdc85f1d6
+    MAXInterstitialAdUnitIdAndroid: 7cf45ac8fedb5c64
+    MAXRewardVideoAdUnitIdAndroid: 3afe775f43a4053a
+  Analytics:
+    SubmitFPS: 1
+    GameAnalyticsCustomDimensions01:
+    - ConfigVersion_0.1
+    - ConfigVersion_0.2
+    - ConfigVersion_0.3
+    - ConfigVersion_0.3.1
+    - ConfigVersion_0.3.2
+    - ConfigVersion_0.3.3
+    GameAnalyticsCustomDimensions02:
+    - LevelComplete_1
+    - LevelComplete_2
+    - LevelComplete_3
+    - LevelComplete_4
+    - LevelComplete_5
+    - LevelComplete_10
+    GameAnalyticsCustomDimensions03: []
+  RateUs:
+    RateUsLevels: 03000000080000000f00000019000000
+    RateUsPopupMode: 2
+  Shortcuts:
+    EditMode: 0
+    ShortcutsGroup:
+    - {fileID: 11400000, guid: d0b0075b85004b8498fda9011353dd73, type: 2}
+    - {fileID: 11400000, guid: f4a5ea02c7387884f815b8cc10fd9bec, type: 2}
+    - {fileID: 11400000, guid: 4eb4b14a58a0c644abeea69d3aee43c4, type: 2}
+  Sync:
+    DestPath: C:/Trabajo/bouncing-rainbow/
+    IsLockedReloadAssemblies: 0
+  VersionsDiff:
+    VersionsSDK:
+      VersionsList:
+        Versions:
+        - Name: IronSource
+          Version: 7.0.4.1-r
+        - Name: MaxSdk
+          Version: 3.1.18
+        - Name: AppsFlyer
+          Version: 5.3.0
+        - Name: GameAnalytics
+          Version: 6.3.10
+        - Name: AppMetrica
+          Version: 3.5.0
+        - Name: Facebook
+          Version: 8.1.1
+        - Name: Fx
+          Version: v0.0.8
+        - Name: SimpleSDK
+          Version: v0.2.2
+        - Name: SimpleSDKAttribution
+          Version: v0.0.4-appsflyer
+        - Name: SimpleSDKTopon
+          Version: global-v5.7.3
+    VersionsProject:
+      VersionsList:
+        Versions:
+        - Name: IronSource
+          Version: 7.0.4.1-r
+        - Name: MaxSdk
+          Version: 3.1.18
+        - Name: AppsFlyer
+          Version: 5.3.0
+        - Name: GameAnalytics
+          Version: 6.3.10
+        - Name: AppMetrica
+          Version: 3.5.0
+        - Name: Facebook
+          Version: 8.1.1
+        - Name: Fx
+          Version: v0.0.8
+        - Name: SimpleSDK
+          Version: v0.2.2
+        - Name: SimpleSDKAttribution
+          Version: v0.0.4-appsflyer
+        - Name: SimpleSDKTopon
+          Version: global-v5.7.3

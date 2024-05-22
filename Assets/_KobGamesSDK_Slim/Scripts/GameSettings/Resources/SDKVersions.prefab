@@ -1,0 +1,89 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &1412431885821338
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 1696885838344046, guid: 544e2b3041011cd4c90f3ec11ea58d8b,
+    type: 2}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 4182631580998310}
+  - component: {fileID: 114780395227185300}
+  m_Layer: 0
+  m_Name: SDKVersions
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4182631580998310
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 4040420979153220, guid: 544e2b3041011cd4c90f3ec11ea58d8b,
+    type: 2}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1412431885821338}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 90, y: 1872, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &114780395227185300
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 114340111315473476, guid: 544e2b3041011cd4c90f3ec11ea58d8b,
+    type: 2}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1412431885821338}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 156878cbdaceac34bb5161407f4acdba, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  PluginsVersion: 2.7
+  SDKVersionsInfo:
+  - Name: AppLovin MAX
+    Version: v2.4.6 - iOS 9.12.4 / Android 6.12.4
+    URL: 
+  - Name: Firebase
+    Version: v6.13.0
+    URL: 
+  - Name: ironSource
+    Version: v6.16.0
+    URL: https://developers.ironsrc.com/ironsource-mobile/unity/mediation-networks-unity/#step-1
+  - Name: ironSource-Admob
+    Version: v4.3.11 - iOS 7.57.0 / Android 19.0.1
+    URL: 
+  - Name: ironSource-AppLovin
+    Version: v4.3.11 - iOS 6.11.1 / Android 9.11.2
+    URL: 
+  - Name: ironSource-Facebook
+    Version: v4.3.18 - iOS 5.8.0 / Android 5.8.0
+    URL: 
+  - Name: ironSource-UnityAds
+    Version: v4.3.1 - iOS 3.4.2 / Android 3.4.2
+    URL: 
+  - Name: JarResolver
+    Version: v1.2.152.0
+    URL: https://github.com/googlesamples/unity-jar-resolver
+  - Name: FacebookSDK
+    Version: v7.19.2
+    URL: 
+  - Name: GameAnalytics
+    Version: v6.1.2
+    URL: 
+  - Name: GoogleAnalytics
+    Version: GAv4
+    URL: https://github.com/googleanalytics/google-analytics-plugin-for-unity/releases
+  - Name: AppsFlyer
+    Version: v5.3.0
+    URL: 
+  - Name: Tenjin
+    Version: v1.9.4
+    URL: 

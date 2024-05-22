@@ -1,0 +1,8 @@
+# PlayMaker
+Version: 1.9.0.p10
+https://www.assetstore.unity3d.com/#!/content/368?aid=1011lNGT
+
+
+# SpeedTestNET
+Partially based on:
+https://github.com/JoyMoe/SpeedTest.Net

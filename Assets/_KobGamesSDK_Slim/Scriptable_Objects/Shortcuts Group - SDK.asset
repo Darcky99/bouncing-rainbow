@@ -1,0 +1,66 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8a63162fdc141b549ba604f63a73d794, type: 3}
+  m_Name: Shortcuts Group - SDK
+  m_EditorClassIdentifier: 
+  GroupName: SDK
+  Shortcuts:
+  - Keys:
+    - Key: 49
+      State: 0
+    Action: Level Complete
+  - Keys:
+    - Key: 50
+      State: 0
+    Action: Level Failed With Revive
+  - Keys:
+    - Key: 51
+      State: 0
+    Action: Level Failed
+  - Keys:
+    - Key: 56
+      State: 0
+    Action: Show Banner
+  - Keys:
+    - Key: 57
+      State: 0
+    Action: Hide Banner
+  - Keys:
+    - Key: 113
+      State: 0
+    Action: Previous Level
+  - Keys:
+    - Key: 101
+      State: 0
+    Action: Next Level
+  - Keys:
+    - Key: 114
+      State: 0
+    - Key: 304
+      State: 3
+    Action: Reset Game
+  - Keys:
+    - Key: 114
+      State: 0
+    - Key: 304
+      State: 2
+    Action: Reset Level
+  - Keys:
+    - Key: 111
+      State: 0
+    Action: Toggle GameLoop Buttons
+  - Keys:
+    - Key: 103
+      State: 0
+    - Key: 306
+      State: 3
+    Action: Toggle GDPR Screen

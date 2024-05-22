@@ -1,0 +1,44 @@
+{
+    "Versions": [
+        {
+            "Name": "IronSource",
+            "Version": "7.0.4.1-r"
+        },
+        {
+            "Name": "MaxSdk",
+            "Version": "3.1.18"
+        },
+        {
+            "Name": "AppsFlyer",
+            "Version": "5.3.0"
+        },
+        {
+            "Name": "GameAnalytics",
+            "Version": "6.3.10"
+        },
+        {
+            "Name": "AppMetrica",
+            "Version": "3.5.0"
+        },
+        {
+            "Name": "Facebook",
+            "Version": "8.1.1"
+        },
+        {
+            "Name": "Fx",
+            "Version": "v0.0.8"
+        },
+        {
+            "Name": "SimpleSDK",
+            "Version": "v0.2.2"
+        },
+        {
+            "Name": "SimpleSDKAttribution",
+            "Version": "v0.0.4-appsflyer"
+        },
+        {
+            "Name": "SimpleSDKTopon",
+            "Version": "global-v5.7.3"
+        }
+    ]
+}
